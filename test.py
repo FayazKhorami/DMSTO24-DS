@@ -1,4 +1,5 @@
-@@ -2,4 +2,4 @@
+@@ -1,5 +1,6 @@
+print("Hello, World!")
 
 print("Jag heter fayaz")
 
