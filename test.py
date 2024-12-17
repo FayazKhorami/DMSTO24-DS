@@ -70,7 +70,6 @@ summa = int(x) + int(y)
 
 print (f'Summan är: {summa}')
 
-"""
 
 
 x = input('Välj sten, sax eller påse: ').lower()
@@ -87,7 +86,7 @@ elif (x == 'sten' and val == 'påse') or (x == 'sax' and val == 'sten') or (x ==
 else:
     print("Ogiltigt val! Välj mellan 'sten', 'sax' eller 'påse'.")
 
-"""
+
 
 
 text = "Data Science"
