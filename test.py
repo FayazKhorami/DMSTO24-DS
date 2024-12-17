@@ -97,4 +97,27 @@ print("Sista tecknet:", text[-1])
 
 print("De första fem tecknen:", text[:6])
 
-"""
+
+
+
+x = input ('ange ett namn: ')
+
+y = input ('ange hur gammal är du: ')
+
+print (f'Hej, {x}! Du är {y} år gammal.')
+
+
+
+
+x = input('Ange ett namn: ')
+
+y = input('Ange hur gammal är du: ')
+
+if int(y) > 24:
+    print(f'Hej, {x}! Du är för gammal och är snart död.')
+elif int(y) < 20:
+    print(f'Hej, {x}! Du är för ung för att vara här.')
+else:
+    print(f'Hej, {x}! Du är {y} år gammal.')
+
+"""""
