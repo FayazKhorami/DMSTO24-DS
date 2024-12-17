@@ -1,7 +1,8 @@
-@@ -1,5 +1,6 @@
+
 print("Hello, World!")
 
-print("Jag heter fayaz")
+namn = "Anna"
 
-print ("hej, vad händer här!")
-print ("hej")
+age = 25
+
+print(f"Hej, {namn}! Du är {age} år gammal.")
