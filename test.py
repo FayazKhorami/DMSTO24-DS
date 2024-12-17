@@ -62,8 +62,6 @@ y = 5
 
 print (float(y))
 
-"""
-
 x = input ('ange ett tal: ')
 
 y = input ('ange ett tal: ')
@@ -71,5 +69,8 @@ y = input ('ange ett tal: ')
 summa = int(x) + int(y)
 
 print (f'Summan är: {summa}')
+
+
+"""
 
 
