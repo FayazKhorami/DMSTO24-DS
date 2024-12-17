@@ -54,8 +54,6 @@ g = x ** y
 
 print (a , b, c, d, e, f, g)
 
-"""
-
 pi = 3.14
 
 print (int(pi))
@@ -63,3 +61,5 @@ print (int(pi))
 y = 5
 
 print (float(y))
+
+"""
