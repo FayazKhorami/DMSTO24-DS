@@ -121,3 +121,10 @@ else:
     print(f'Hej, {x}! Du är {y} år gammal.')
 
 """""
+
+x = 10
+y = 5
+
+z = 3
+
+print ( x >= y )
