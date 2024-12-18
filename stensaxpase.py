@@ -1,3 +1,5 @@
+"""""
+
 x = input('Välj sten, sax eller påse: ').lower()
 
 import random
@@ -11,3 +13,10 @@ elif (x == 'sten' and val == 'påse') or (x == 'sax' and val == 'sten') or (x ==
     print(f"Tyvärr, du förlorade. Du valde {x} och datorn valde {val}.")
 else:
     print("Ogiltigt val! Välj mellan 'sten', 'sax' eller 'påse'.")
+
+
+"""
+
+x =                                          5
+
+y =                                             10
