@@ -1,5 +1,5 @@
 
-
+"""""
 print("Hello, World!")
 
 namn = "Anna"
@@ -102,7 +102,7 @@ elif int(y) < 20:
 else:
     print(f'Hej, {x}! Du är {y} år gammal.')
 
-
+"""""
 
 x = 10
 y = 5
