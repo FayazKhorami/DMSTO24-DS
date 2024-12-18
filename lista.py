@@ -1,3 +1,5 @@
+
+"""""
 reallyLongList = ["äpple", "banan", "körsbär", "druva", "apelsin", "päron", "kiwi", "mango", "passionsfrukt", "ananas"]
 
 #2 bertätter var den ska börja på 
@@ -21,3 +23,28 @@ every_third_item = reallyLongList[2::3]
 
 for i, item in enumerate(every_third_item, start=1):
     print(f"{i}. {item}")
+
+
+"""""
+
+
+listaMedStader = ["Stockholm", "Göteborg", "västerås", "Arboga", "Lund"]
+
+listaMedStader.append("Oslo")
+
+# Ta bort Stockholm från listan
+listaMedStader.pop(2)
+
+#för att skapa lista man måste skriva det "for i, item in enumerate(listaMedStader, start=1) print(f"{i}. {item}")" i står för index
+
+for i, item in enumerate(listaMedStader, start=1):
+    print(f"{i}. {item}")
+
+print (listaMedStader)
+
+listaMedHeltal = [1, 2, 3, 4, 5]
+
+summa = sum(listaMedHeltal)
+
+print(summa)
+
