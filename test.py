@@ -89,8 +89,6 @@ y = input ('ange hur gammal är du: ')
 print (f'Hej, {x}! Du är {y} år gammal.')
 
 
-
-
 x = input('Ange ett namn: ')
 
 y = input('Ange hur gammal är du: ')
@@ -104,9 +102,25 @@ else:
 
 """""
 
-x = 10
-y = 5
+reallyLongList = ["äpple", "banan", "körsbär", "druva", "apelsin", "päron", "kiwi", "mango", "passionsfrukt", "ananas"]
 
-z = 3
 
-print ( x > y )
+every_third_item = reallyLongList[2::3]
+
+print (every_third_item)
+
+reallyLongList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+
+every_forth_number = reallyLongList[::4]
+
+print (every_forth_number)
+
+"""""
+reallyLongList = ["äpple", "banan", "körsbär", "druva", "apelsin", "päron", "kiwi", "mango", "passionsfrukt", "ananas"]
+
+every_third_item = reallyLongList[2::3]
+
+for i, item in enumerate(every_third_item, start=1):
+    print(f"{i}. {item}")
+
+"""""
