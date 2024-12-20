@@ -2,11 +2,11 @@
 """""
 print("Hello, World!")
 
-namn = "Anna"
+name = "Anna"
 
 age = 25
 
-print(f"Hej, {namn}! Du är {age} år gammal.")
+print(f"Hej, {name}! Du är {age} år gammal.")
 
 x = 10
 
