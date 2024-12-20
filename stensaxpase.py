@@ -1,20 +1,24 @@
-"""""
+
+"""
+
+import random
 
 x = input('Välj sten, sax eller påse: ').lower()
 
-import random
+
 val = random.choice(['sten', 'sax', 'påse'])
 
 if x == val:
     print(f"Det blev oavgjort! Både du och datorn valde {val}.")
+
 elif (x == 'sten' and val == 'sax') or (x == 'sax' and val == 'påse') or (x == 'påse' and val == 'sten'):
     print(f"Grattis! Du valde {x} och datorn valde {val}. Du vann!")
+
 elif (x == 'sten' and val == 'påse') or (x == 'sax' and val == 'sten') or (x == 'påse' and val == 'sax'):
     print(f"Tyvärr, du förlorade. Du valde {x} och datorn valde {val}.")
+
 else:
     print("Ogiltigt val! Välj mellan 'sten', 'sax' eller 'påse'.")
-
-
 
 
 import random
@@ -60,7 +64,7 @@ else:
     print("Datorn vann spelet. Bättre lycka nästa gång! 🤖")
     
     
-"""
+
 
 
 import random
@@ -115,3 +119,35 @@ if dina_poäng == 3:
     print("🏆 Hurra! Du vann hela spelet! Bra kämpat!")
 else:
     print("🤖 Datorn vann spelet. Den var för smart! Försök igen nästa gång!")
+
+
+"""
+
+import random
+
+print("💥 Välkommen till Sten, Sax, Påse-spelet! 💥")
+print("Skriv 'avsluta' för att avsluta spelet.\n")
+
+while True:
+    x = input("Välj sten, sax eller påse (eller 'avsluta' för att sluta): ").lower()
+
+    if x == 'avsluta':
+        print("Tack för att du spelade! 👋")
+        break  
+
+    if x not in ['sten', 'sax', 'påse']:
+        print("🚫 Ogiltigt val! Välj mellan 'sten', 'sax' eller 'påse'.")
+        continue  
+
+
+    val = random.choice(['sten', 'sax', 'påse'])
+
+
+    if x == val:
+        print(f"😐 Det blev oavgjort! Både du och datorn valde {val}.")
+    elif (x == 'sten' and val == 'sax') or (x == 'sax' and val == 'påse') or (x == 'påse' and val == 'sten'):
+        print(f"🎉 Grattis! Du valde {x} och datorn valde {val}. Du vann!")
+    else:
+        print(f"😢 Tyvärr, du förlorade. Du valde {x} och datorn valde {val}.")
+
+    print("\nVill du spela igen? 👊")
