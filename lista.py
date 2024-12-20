@@ -25,7 +25,7 @@ for i, item in enumerate(every_third_item, start=1):
     print(f"{i}. {item}")
 
 
-"""""
+
 
 
 listaMedStader = ["Stockholm", "Göteborg", "västerås", "Arboga", "Lund"]
@@ -47,4 +47,8 @@ listaMedHeltal = [1, 2, 3, 4, 5]
 summa = sum(listaMedHeltal)
 
 print(summa)
+
+
+
+"""""
 

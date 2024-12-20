@@ -2,10 +2,10 @@
 """""
 print("Hello, World!")
 
+
 name = "Anna"
 
 age = 25
-
 print(f"Hej, {name}! Du är {age} år gammal.")
 
 x = 10
@@ -37,7 +37,7 @@ b = 5 // 2
 c = 5 % 2 
 
 d = 5 ** 2
- 
+
 print(a, b, c, d)
 
 x = 10
@@ -88,7 +88,7 @@ y = input ('ange hur gammal är du: ')
 
 print (f'Hej, {x}! Du är {y} år gammal.')
 
-
+"""
 x = input('Ange ett namn: ')
 
 y = input('Ange hur gammal är du: ')
@@ -100,8 +100,6 @@ elif int(y) < 20:
 else:
     print(f'Hej, {x}! Du är {y} år gammal.')
 
-"""
 
 x = 5
-
 

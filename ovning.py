@@ -16,7 +16,7 @@ produkt ['lager'] = 40
 
 print (produkt)
 
-"""
+
 
 person = {
 
@@ -39,3 +39,7 @@ person = {
 
 for key, value in person.items():
     print(f"Nyckel: {key}, Värde: {value}")
+
+
+"""
+
