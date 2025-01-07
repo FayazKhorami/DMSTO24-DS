@@ -11,7 +11,7 @@ def multiplication_table(n, limit):
     
     for i in range(1, limit + 1):
         table.append(n * i)
-        
+    
     return table
 
 n = 5
