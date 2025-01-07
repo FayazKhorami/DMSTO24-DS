@@ -3,6 +3,13 @@
 
 def validate_password(password):
     
+    """
+    
+    Kollar att lösenordet är minst 8 tecken långt och ska innehålla  minst en siffra.
+    Retunera True om lösenordet är giltigt, annars False.
+    
+    """
+    
     if len(password) < 8:
         return False
     
