@@ -6,7 +6,11 @@
 
 def is_odd(number: int) -> bool:
     
-    TrueOrFalse = (number % 2 == 0)
+    TrueOrFalse = (number % 2 != 0)
+    
+    """
+    Returnerar True om talet är ojämt, annars False.
+    """
     
     return TrueOrFalse
 
