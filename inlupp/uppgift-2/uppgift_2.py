@@ -3,9 +3,16 @@
 
 
 def sum_list(numbers):
-    """Returnerar summan av alla siffror i listan."""
+    
+    """
+    
+    Returnerar summan av alla siffror i listan.
+    
+    """
+    
     return sum(numbers)
 
 
 numbers = [1, 2, 3, 4, 5, 6]
-print(sum_list(numbers))  # Output: 15
+
+print(sum_list(numbers)) 
