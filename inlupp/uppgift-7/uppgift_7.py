@@ -3,13 +3,6 @@
 
 def validate_password(password):
     
-    """
-    
-    Kollar att lösenordet är minst 8 tecken långt och ska innehålla  minst en siffra.
-    Retunera True om lösenordet är giltigt, annars False.
-    
-    """
-    
     if len(password) < 8:
         return False
     
@@ -19,7 +12,7 @@ def validate_password(password):
     return True
 
 
-print(validate_password("lars"))
-print(validate_password("larsknut12"))
-print(validate_password("lars1"))
+print(validate_password("viktoria"))
+print(validate_password("biktoria1"))
+print(validate_password("ciktor1"))
 
