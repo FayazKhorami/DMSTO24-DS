@@ -19,3 +19,7 @@ n = 5
 limit = 10
 
 print(multiplication_table(n, limit))
+
+
+
+

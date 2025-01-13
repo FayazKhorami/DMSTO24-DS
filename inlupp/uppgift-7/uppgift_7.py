@@ -23,3 +23,5 @@ print(validate_password("viktoria"))
 print(validate_password("biktoria1"))
 print(validate_password("ciktor1"))
 
+
+

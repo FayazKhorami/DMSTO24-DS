@@ -16,3 +16,6 @@ def sum_list(numbers):
 numbers = [1, 2, 3, 4, 5, 6]
 
 print(sum_list(numbers)) 
+
+
+
