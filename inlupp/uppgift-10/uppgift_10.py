@@ -19,7 +19,7 @@ print(celsius_to_fahrenheit(25))
 print(celsius_to_fahrenheit(-10))
 print(celsius_to_fahrenheit(0))
 print(celsius_to_fahrenheit(100))
-print(celsius_to_fahrenheit(-40) == -40)
+print(celsius_to_fahrenheit(-40) == -30)
 
 
 
