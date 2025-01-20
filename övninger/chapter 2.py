@@ -56,7 +56,7 @@ plt.tight_layout()
 
 plt.show()
 
-
+"""
 
 
 import matplotlib.pyplot as plt
@@ -65,14 +65,13 @@ labels = "Datamodellering och design", "Att arbeta i projekt", "Data-arkitektur"
 
 values = [   30,   20,   25,   40,   25,   35,   25,   30,   20,  30,   20,  100]
 
-explode = (0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1) 
+explode = (0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3) 
 
-plt.pie(values, explode=explode, labels=labels, autopct='%3.3f%%', shadow=True)
+plt.pie(values, explode=explode, labels=labels, autopct='%10.1f%%', shadow=True)
 
 plt.axis("equal")
 
 plt.show()
 
-"""
 
 
