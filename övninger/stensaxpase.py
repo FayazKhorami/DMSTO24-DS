@@ -151,3 +151,5 @@ while True:
         print(f"😢 Tyvärr, du förlorade. Du valde {x} och datorn valde {val}.")
 
     print("\nVill du spela igen? 👊")
+
+

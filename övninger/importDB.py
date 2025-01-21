@@ -8,13 +8,13 @@ import psycopg2
 
 conn = psycopg2.connect (
 
-    host="*****",   # Byt ut med din värd
+    host="localhost",   # Byt ut med din värd
 
     database="postgres",    # Byt ut med din databas
 
     user="postgres",    # Byt ut med ditt användarnamn
 
-    password="********",  # Byt ut med ditt lösenord
+    password="Byt321470!",  # Byt ut med ditt lösenord
 
     port="5432"  # Byt ut med din port (oftast 5432 för PostgreSQL
 
