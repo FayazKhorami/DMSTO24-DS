@@ -1,0 +1,19 @@
+id,namn,gatunamn,gatunummer,postnummer,postort,agare,grupp,agare_vgr,antal_sjukhus_per_agare
+1,Alingsås lasarett,Södra Ringgatan,30,44133,Alingsås,VGR,Sjukhusen i väster,Ja,17
+2,Angereds Närsjukhus,Halmtorget,1,42465,Angered,VGR,Sjukhusen i väster,Ja,17
+6,Drottning Silvias barnsjukhus,Behandlingsvägen,7,41650,Göteborg,VGR,Sahlgrenska Universitetssjukhuset,Ja,17
+7,Högsbo närsjukhus,Lilla Kapplandsgatan,10,42137,Västra Frölunda,VGR,Sjukhusen i väster,Ja,17
+8,Högsbo sjukhus,Tunnlandsgatan,2A,42137,Västra Frölunda,VGR,Sahlgrenska Universitetssjukhuset,Ja,17
+9,Kungälvs sjukhus,Lasarettsgatan,1,44241,Kungälv,VGR,Sjukhusen i väster,Ja,17
+10,Lysekils sjukhus,Lasarettsgatan,1,45334,Lysekil,Privat,NU-sjukvården,Nej,1
+11,Mölndals sjukhus,Göteborgsvägen,31,43130,Mölndal,VGR,Sahlgrenska Universitetssjukhuset,Ja,17
+13,Sahlgrenska sjukhuset,Blå stråket,5,41346,Göteborg,VGR,Sahlgrenska Universitetssjukhuset,Ja,17
+14,Skaraborgs Sjukhus Falköping,Sjukhusgatan,5,52137,Falköping,VGR,Skaraborgs Sjukhus,Ja,17
+15,Skaraborgs Sjukhus Lidköping,Mellbygatan,11,53151,Lidköping,VGR,Skaraborgs Sjukhus,Ja,17
+16,Skaraborgs Sjukhus Mariestad,Lockerudsvägen,12,54245,Mariestad,VGR,Skaraborgs Sjukhus,Ja,17
+17,Skaraborgs Sjukhus Skövde,Lövängsvägen,1,54949,Skövde,VGR,Skaraborgs Sjukhus,Ja,17
+18,Strömstads sjukhus,Västra Hamngatan,10-12,45237,Strömstad,VGR,NU-sjukvården,Ja,17
+19,SÃS Borås,Brämhultsvägen,53,50455,Borås,VGR,Södra Ãlvsborgs Sjukhus,Ja,17
+20,SÃS Skene,Varbergsvägen,50,51161,Skene,VGR,Södra Ãlvsborgs Sjukhus,Ja,17
+21,Uddevalla sjukhus,Fjällvägen,9,45153,Uddevalla,VGR,NU-sjukvården,Ja,17
+22,Ãstra sjukhuset,Diagnosvägen,11,41650,Göteborg,VGR,Sahlgrenska Universitetssjukhuset,Ja,17

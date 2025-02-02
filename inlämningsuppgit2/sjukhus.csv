@@ -1,0 +1,23 @@
+﻿id,namn,gatunamn,gatunummer,postnummer,postort,agare,grupp,xkoord,ykoord
+1,Alingsås lasarett,Södra Ringgatan,30,44133,Alingsås,VGR,Sjukhusen i väster,6423475.733,353183.087
+2,Angereds Närsjukhus,Halmtorget,1,42465,Angered,VGR,Sjukhusen i väster,6409904.895,324550.017
+3,Capio Lundby Närsjukhus,Wieselgrensplatsen,2A,41739,Göteborg,Privat,,6401791.759,317571.007
+4,Carlanderska sjukhuset,Carlandersparken,1,41255,Göteborg,Privat,,6398465.17,320548.043
+5,Dalslands sjukhus,Dalslands sjukhus,,66840,Bäckefors,Privat,NU-sjukvården,6521088,336022
+6,Drottning Silvias barnsjukhus,Behandlingsvägen,7,41650,Göteborg,VGR,Sahlgrenska Universitetssjukhuset,6401362.256,324420.633
+7,Högsbo närsjukhus,Lilla Kapplandsgatan,10,42137,Västra Frölunda,VGR,Sjukhusen i väster,6395745.486,316986.751
+8,Högsbo sjukhus,Tunnlandsgatan,2A,42137,Västra Frölunda,VGR,Sahlgrenska Universitetssjukhuset,6395875.282,316845.389
+9,Kungälvs sjukhus,Lasarettsgatan,1,44241,Kungälv,VGR,Sjukhusen i väster,6419173.91,320251.63
+10,Lysekils sjukhus,Lasarettsgatan,1,45334,Lysekil,Privat,NU-sjukvården,6465485.972,291309.621
+11,Mölndals sjukhus,Göteborgsvägen,31,43130,Mölndal,VGR,Sahlgrenska Universitetssjukhuset,6394930,321776
+12,Norra Älvsborgs Länssjukhus (NÄL),Lärketorpsvägen,,46173,Trollhättan,VGR,NU-sjukvården,6467314.83,339862.852
+13,Sahlgrenska sjukhuset,Blå stråket,5,41346,Göteborg,VGR,Sahlgrenska Universitetssjukhuset,6397436.184,318856.944
+14,Skaraborgs Sjukhus Falköping,Sjukhusgatan,5,52137,Falköping,VGR,Skaraborgs Sjukhus,6450524.235210788,414856.6753071798
+15,Skaraborgs Sjukhus Lidköping,Mellbygatan,11,53151,Lidköping,VGR,Skaraborgs Sjukhus,6485575.229,392208.137
+16,Skaraborgs Sjukhus Mariestad,Lockerudsvägen,12,54245,Mariestad,VGR,Skaraborgs Sjukhus,6507843.857,430229.476
+17,Skaraborgs Sjukhus Skövde,Lövängsvägen,1,54949,Skövde,VGR,Skaraborgs Sjukhus,6476819.393,432957.569
+18,Strömstads sjukhus,Västra Hamngatan,10-12,45237,Strömstad,VGR,NU-sjukvården,6539823.759,279603
+19,SÄS Borås,Brämhultsvägen,53,50455,Borås,VGR,Södra Älvsborgs Sjukhus,6399834.013,378591.956
+20,SÄS Skene,Varbergsvägen,50,51161,Skene,VGR,Södra Älvsborgs Sjukhus,6374714.386,358982.757
+21,Uddevalla sjukhus,Fjällvägen,9,45153,Uddevalla,VGR,NU-sjukvården,6472467.873,320367.83
+22,Östra sjukhuset,Diagnosvägen,11,41650,Göteborg,VGR,Sahlgrenska Universitetssjukhuset,6401575.438,324302.224

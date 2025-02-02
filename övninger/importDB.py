@@ -8,15 +8,15 @@ import psycopg2
 
 conn = psycopg2.connect (
 
-    host="******",   # Byt ut med din värd
-
-    database="postgres",    # Byt ut med din databas
+    host="localhost",   # Byt ut med din värd
+    # dbname='postgres',
+    database="python",    # Byt ut med din databas
 
     user="postgres",    # Byt ut med ditt användarnamn
 
-    password="******!",  # Byt ut med ditt lösenord
+    password="Byt321470!",  # Byt ut med ditt lösenord
 
-    port="5432"  # Byt ut med din port (oftast 5432 för PostgreSQL
+    port="5432"  # Byt ut med din port (oftast 5432 för PostgreSQL)
 
 )
 
@@ -34,7 +34,7 @@ df = pd.read_csv(csv_file_path)
 
 create_table_query = """ 
 
-    CREATE TABLE IF NOT EXISTS ****.sales (          
+    CREATE TABLE IF NOT EXISTS python.sales (          
     id SERIAL PRIMARY KEY,
     date DATE,
     product VARCHAR(50),
@@ -56,7 +56,7 @@ for index, row in df.iterrows():
 
     insert_query = """
 
-    INSERT INTO *****.sales (date, product, price, quantity)
+    INSERT INTO python.sales (date, product, price, quantity)
     VALUES (%s, %s, %s, %s)
 
 """
@@ -83,3 +83,5 @@ print("CSV-filen har importerats till PostgreSQL!")
 # För att få detta fungera så måste man skapa en datagrip en databas som heter localhost
 # Sedan skapa en schema som heter 'du får välja ett namn' i mitt mitt fall heter min schema 'jag'
 # Sedan man måste ändra i koden på två platser en gång i rad 38 och en gång i rad 59 
+
+
